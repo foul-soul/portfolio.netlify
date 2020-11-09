@@ -326,9 +326,9 @@ body.section-show .section.active {
     bottom: 0;
     background: rgb(255, 255, 255);
     z-index: 199;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    transition: all .5s ease;
+    -webkit-transition: all .0s ease;
+    -moz-transition: all .0s ease;
+    transition: all .0s ease;
 }
 
 .js #preloader .loader {
