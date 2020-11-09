@@ -407,7 +407,7 @@ body.section-show .transition-mask {
     left: 0;
     right: 0;
     margin: auto;
-    z-index: 22;
+    z-index: 42;
     transform: rotate(45deg);
     overflow: hidden;
     -webkit-animation: fill2 .8s .4s both ease;
