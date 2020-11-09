@@ -428,7 +428,7 @@ body.section-show .transition-mask:before {
     -webkit-animation: fill .4s both ease;
     -moz-animation: fill .4s both ease;
     animation: fill .4s both ease;
-    background: rgba(58, 58, 58, 0.5);
+    background: rgba(58, 58, 58);
 }
 
 @-webkit-keyframes fill2 {
