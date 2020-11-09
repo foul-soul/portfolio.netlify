@@ -2412,39 +2412,58 @@
                     <div class='row'>
                         <div class='col-md-8 col-md-offset-2'>
 
-                            <form name="contact" class="contact-form" action="/thank-you/" method="POST" data-netlify="true">
-                            <input type="hidden" name="form-name" value="contact" />
-                            <!-- Text input-->
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="Name"></label>
-                                <div class="col-md-4">
-                                    <input id="contact-form-name" name="Name" type="text" placeholder="Name" class='form-control' required="" autocomplete="off">
+                            <form class='contact-form' name="contact" method="POST" data-netlify="true">
+                                <input type="hidden" name="form-name" value="contact">
+                                <div id='contact-form-result'></div>
+
+                                <div class='row'>
+
+                                    <div class='col-md-6'>
+
+                                        <div class='form-group'>
+                                            <input type='text' class='form-control' name='name' placeholder='Name' />
+                                        </div>
+
+                                    </div>
+
+                                    <div class='col-md-6'>
+                                        <div class='form-group'>
+                                            <input type='email' class='form-control' name='email' placeholder='Email' />
+                                        </div>
+                                    </div>
+
                                 </div>
-                            </div>
-                            <!-- Text input-->
-                           <div class="form-group">
-                              <label class="col-md-4 control-label" for="Email"></label>
-        		      <div class="col-md-4">
-            			<input id="contact-form-email" name="Email" type="email" placeholder="Email Address" class='form-control' required="" autocomplete="off">
-        		      </div>
- 			   </div>
-    			   <!-- Text input-->
-    			   <div class="form-group">
-        			<label class="col-md-4 control-label" for="Subject"></label>
-        			<div class="col-md-4">
-            				<input id="contact-form-subject" name="Subject" type="text" placeholder="Subject" class='form-control' required="" autocomplete="off">
-        			</div>
-    			   </div>
-    			   <!-- Textarea -->
-    			   <div class="form-group">
-        			<label class="col-md-4 control-label" for=""></label>
-        			<textarea class='form-control' id="contact-form-message" name="Message" placeholder="What's up?" rows="8"></textarea>
-    			   </div>
-    			   <!-- Button -->
-    			   <div class="form-group">
-        			<button type="submit" value="Submit" id="Form-submit" class="simple-btn">Submit</button>
-    			   </div>
-			 </form>
+
+                                <div class='row'>
+
+                                    <div class='col-md-6'>
+                                        <div class='form-group'>
+                                            <input type='text' class='form-control' name='phone' placeholder='Phone' />
+                                        </div>
+                                    </div>
+
+                                    <div class='col-md-6'>
+                                        <div class='form-group'>
+                                            <input type='text' class='form-control' name='role' placeholder='Your Role' />
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class='form-group'>
+                                    <textarea rows='5' class='form-control' name="message" placeholder='Message' required></textarea>
+                                </div>
+
+                                <div class='form-group text-center'>
+                                    <input type='file' class='form-control' name='file-uploaded' placeholder='Upload File' />
+                                </div>
+
+                                <div class='form-group text-center' data-netlify-recaptcha="true"></div>
+
+                                <div class='form-group text-center'>
+                                    <button type='submit' class='simple-btn'>Send Message</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
