@@ -2112,4 +2112,20 @@ body .simple-btn1 {
         bottom: 0;
         left: -40px;
     }
+   #portfolio-filters>ul>li {
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        font-size: 14px;
+        padding: 0 10px;
+        position: relative;
+    }
+    #skill-filters>ul>li {
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        font-size: 14px;
+        padding: 0 10px;
+        position: relative;
+    }	
 }
