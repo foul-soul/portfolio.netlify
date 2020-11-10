@@ -530,7 +530,7 @@ body.section-show .transition-mask:before {
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
     border-radius: 0;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.4), 0 16px 35px 0 rgba(0, 0, 0, 0.34);
 }
 
 .front-person-img>img {
