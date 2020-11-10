@@ -1200,8 +1200,8 @@ body.section-show .transition-mask:before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgb(236, 236, 236, 0.5);
-    color: rgb(0, 0, 0);
+    background:  rgba(51, 51, 51, .8);
+    color:  rgb(255, 255, 255);
     text-align: center;
     z-index: 10;
     opacity: 0;
@@ -1256,7 +1256,7 @@ body.section-show .transition-mask:before {
 
 .skill-items>.items>.inners>.captions>.caption-inners>.link {
     list-style: none;
-    color: rgb(0, 0, 0);
+    color:  rgb(255, 255, 255);
 }
 
 .skill-items>.items>.inners>.captions>.caption-inners>.link>li {
@@ -1298,8 +1298,8 @@ body.section-show .transition-mask:before {
     width: 30px;
     line-height: 30px;
     font-size: 0;
-    border: solid 1px rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
+    border: solid 1px  rgb(255, 255, 255);
+    color:  rgb(255, 255, 255);
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -1327,8 +1327,8 @@ body.section-show .transition-mask:before {
 }
 
 .skill-items>.items>.inners>.captions>.caption-inners>.link>li>a:hover {
-    background: rgb(0, 255, 234);
-    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, .9);
+    color: #333;
 }
 
 #extra-skills {
