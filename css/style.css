@@ -1200,7 +1200,7 @@ body.section-show .transition-mask:before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: none;
+    background: rgb(236, 236, 236, 0.5);
     color: rgb(0, 0, 0);
     text-align: center;
     z-index: 10;
