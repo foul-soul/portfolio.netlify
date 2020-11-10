@@ -750,8 +750,8 @@ body.section-show .transition-mask:before {
     margin: 0;
     position: relative;
     z-index: 10;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
 }
 
 .info-list:before,
@@ -765,13 +765,13 @@ body.section-show .transition-mask:before {
 }
 
 .info-list>li {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     float: left;
     width: 40%;
 }
 
 .info-list>li>.inner {
-    padding: 15px 0;
+    padding: 8px 0;
 }
 
 .info-list>li>* {
@@ -783,7 +783,7 @@ body.section-show .transition-mask:before {
     font-size: 13px;
     letter-spacing: 4px;
     margin-right: 16px;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     display: block;
     color: #333;
 }
